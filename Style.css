@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff5f5; /* Light pink background */
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ff85a2; /* Soft pink */
+  color: #fff;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+header .logo i {
+  margin-right: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .cart {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+header .cart i {
+  margin-right: 10px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background: linear-gradient(135deg, #ff85a2, #ffb6c1); /* Gradient pink */
+  color: #fff;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.hero-content .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff477e; /* Bright pink */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.hero-content .btn:hover {
+  background-color: #ff6b9d; /* Lighter pink on hover */
+}
+
+/* Featured Bouquets Section */
+.featured-bouquets {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.featured-bouquets h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ff477e; /* Bright pink */
+}
+
+.bouquets {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.bouquet {
+  background-color: #fff;
+  border: 1px solid #ffb6c1; /* Soft pink border */
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.2); /* Soft pink shadow */
+}
+
+.bouquet-icon {
+  font-size: 3rem;
+  color: #ff477e; /* Bright pink */
+  margin-bottom: 10px;
+}
+
+.bouquet h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #ff477e; /* Bright pink */
+}
+
+.bouquet p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.bouquet button {
+  padding: 10px 20px;
+  background-color: #ff477e; /* Bright pink */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bouquet button:hover {
+  background-color: #ff6b9d; /* Lighter pink on hover */
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ff85a2; /* Soft pink */
+  color: #fff;
+  margin-top: 40px;
+}
