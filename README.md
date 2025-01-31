@@ -18,8 +18,3 @@ A simple and elegant homepage for a flower shop built using HTML and CSS. This p
 - CSS
 - FontAwesome Icons
 
-## Live Preview
-You can view a live preview of the project [here](#) (add a live link if hosted).
-
-## License
-This project is open-source and available under the MIT License.
